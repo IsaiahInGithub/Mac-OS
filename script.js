@@ -46,18 +46,10 @@ iconThree.addEventListener('click', () => {
     <button class="red" onclick="const mac = document.querySelector('.mac'); mac.remove(); window.location='index.html'"></button>
     <button class="yellow" onclick="const mac = document.querySelector('.mac'); mac.remove(); window.location='index.html'"></button>
     <button class="green" onclick="const mac = document.querySelector('.mac'); mac.classList.toggle('maximize');"></button>
-    <center>
-    <h3>Safari</h3>
-    <input type="text" class="searchbox">
-    <button onclick="search();">Search</button>
-    </center>
+    <center>Notes</center>
     </div>
     `
 });
-
-function search() {
-    window.location = 'https://' + document.querySelector('.searchbox').value;
-}
 
 iconFour.addEventListener('click', () => {
     document.body.innerHTML += `
