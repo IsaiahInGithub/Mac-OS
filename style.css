@@ -1,0 +1,405 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background-size: 110vw;
+  background-image: url("images/background.jpg");
+}
+
+#mac {
+  width: 500px;
+  height: 520px;
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  background-color: white;
+  border-top: 25px solid whitesmoke;
+  border-radius: 10px;
+}
+
+#mac.maximize {
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  border-radius: 0px;
+}
+
+.red {
+  background-color: red;
+  border: 0;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  position: relative;
+  top: -20px;
+  left: 5px;
+  color: black;
+}
+
+.yellow {
+  background-color: gold;
+  border: 0;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  position: relative;
+  top: -20px;
+  left: 5px;
+}
+
+.green {
+  background-color: lightgreen;
+  border: 0;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  position: relative;
+  top: -20px;
+  left: 5px;
+}
+
+.taskbar {
+  width: 1250px;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  position: absolute;
+  top: 89vh;
+  left: 15vw;
+  border-radius: 25px 25px;
+}
+
+.icon-one {
+  position: absolute;
+  left: 40px;
+  top: 12px;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border: none;
+  font-size: 22px;
+  background-image: url("./images/finder.png");
+  background-size: 180px;
+  background-position-x: -50px;
+  background-position-y: -25px;
+}
+
+.icon-two {
+  position: absolute;
+  left: 140px;
+  top: 12px;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border: none;
+  font-size: 22px;
+  background-image: url("./images/app-store.png");
+  background-size: 170px;
+  background-position-x: -45px;
+  background-position-y: -1px;
+}
+
+.icon-three {
+  position: absolute;
+  left: 240px;
+  top: 12px;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border: none;
+  font-size: 22px;
+  background-image: url("./images/safari.png");
+  background-size: 150px;
+  background-position-x: -35px;
+  background-position-y: -10px;
+}
+
+.icon-four {
+  background-image: url("images/notes.jpg");
+  position: absolute;
+  left: 340px;
+  top: 12px;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border: none;
+  font-size: 22px;
+  background-size: 125px;
+  background-position-x: -17px;
+  background-position-y: 5px;
+}
+
+.icon-five {
+  position: absolute;
+  left: 440px;
+  top: 12px;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border: none;
+  font-size: 22px;
+  background-size: 80px;
+  background-image: url("images/maps.png");
+  background-position-x: -22.5px;
+  background-position-y: -1px;
+  background-size: 130px;
+}
+
+.icon-six {
+  position: absolute;
+  left: 540px;
+  top: 12px;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border: none;
+  font-size: 22px;
+  background-size: cover;
+  background-image: url("images/photos.jpg");
+}
+
+.icon-one:focus {
+  outline: none;
+}
+
+.icon-one:focus {
+  outline: none;
+}
+
+.icon-one:focus {
+  outline: none;
+}
+
+.icon-one:focus {
+  outline: none;
+}
+
+.icon-one:focus {
+  outline: none;
+}
+
+.icon-one:focus {
+  outline: none;
+}
+
+.icon-one:hover {
+  top: 5px;
+  height: 83px;
+  width: 83px;
+}
+
+.icon-two:hover {
+  top: 5px;
+  height: 83px;
+  width: 83px;
+}
+
+.icon-three:hover {
+  background-position-y: -8px;
+  background-position-x: -35px;
+  top: 5px;
+  height: 83px;
+  width: 83px;
+}
+
+.icon-four:hover {
+  top: 5px;
+  height: 83px;
+  width: 83px;
+}
+
+.icon-five:hover {
+  top: 5px;
+  height: 83px;
+  width: 83px;
+}
+
+.icon-six:hover {
+  top: 5px;
+  height: 83px;
+  width: 83px;
+}
+
+.icon-seven {
+  position: absolute;
+  left: 640px;
+  top: 12px;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border: none;
+  font-size: 22px;
+  background-size: 80px;
+  background-image: url("images/settings.jpg");
+}
+
+.icon-eight {
+  position: absolute;
+  left: 740px;
+  top: 12px;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border: none;
+  font-size: 22px;
+  background-size: cover;
+  background-position-x: -36.5px;
+  background-image: url("images/tv.png");
+}
+
+.icon-nine {
+  position: absolute;
+  left: 840px;
+  top: 12px;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border: none;
+  font-size: 22px;
+  background-size: 68px;
+  background-image: url("images/mail.webp");
+  background-position-x: 6px;
+  background-position-y: 5px;
+}
+
+.icon-ten {
+  position: absolute;
+  left: 940px;
+  top: 12px;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border: none;
+  font-size: 22px;
+  background-size: 160px;
+  background-image: url("images/remainder.png");
+  background-position-x: -43px;
+}
+
+.icon-eleven {
+  position: absolute;
+  left: 1040px;
+  top: 12px;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border: none;
+  font-size: 22px;
+  background-size: 70px;
+  background-image: url("images/folder.jpg");
+  background-position-x: 5px;
+  background-position-y: 3px;
+}
+
+.icon-twelve {
+  position: absolute;
+  left: 1140px;
+  top: 12px;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border: none;
+  font-size: 22px;
+  background-size: 70px;
+  background-image: url("images/bin.jpg");
+  background-position-x: 3px;
+  background-position-y: 2.5px;
+}
+
+.icon-seven:focus {
+  outline: none;
+}
+
+.icon-eight:focus {
+  outline: none;
+}
+
+.icon-nine:focus {
+  outline: none;
+}
+
+.icon-ten:focus {
+  outline: none;
+}
+
+.icon-eleven:focus {
+  outline: none;
+}
+
+.icon-twelve:focus {
+  outline: none;
+}
+
+.icon-seven:hover {
+  top: 5px;
+  height: 83px;
+  width: 83px;
+}
+
+.icon-eight:hover {
+  top: 5px;
+  height: 83px;
+  width: 83px;
+}
+
+.icon-nine:hover {
+  top: 5px;
+  height: 83px;
+  width: 83px;
+  background-position-x: 7.5px;
+  background-position-y: 7.6px;
+}
+
+.icon-ten:hover {
+  top: 5px;
+  height: 83px;
+  width: 83px;
+}
+
+.icon-eleven:hover {
+  top: 5px;
+  height: 80px;
+  width: 80px;
+}
+
+.icon-twelve:hover {
+  top: 5px;
+  height: 75px;
+  width: 75px;
+}
+
+.theline {
+  position: absolute;
+  top: -85px;
+  left: 1020px;
+  font-size: 100px;
+  color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 2.5vh;
+  background-color: rgba(255, 255, 255, 0.03);
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+a:hover {
+  background-color: dodgerblue;
+  color: white;
+  border-radius: 3px;
+}/*# sourceMappingURL=style.css.map */
